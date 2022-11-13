@@ -1,0 +1,118 @@
+/* Essencial */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-container{
+    padding: 5%;
+    width: 100%;
+    height: 100vh;
+    background: url(../Imagens/background-primeiros-socorros.jpg) no-repeat center center/cover;
+    
+    /* Overlay */
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: color;
+}
+body header .offcanvas{
+    background: #0e2238;
+}
+body header .btn{
+    background: #0e2238;
+}
+body header div div div .titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10%;
+}
+body header div div div .titulo img {
+    width: 50%;
+}
+.lista{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+}
+.lista li{
+    margin-bottom: 10%;
+
+}
+.lista li a{
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: white;
+}
+/* Fim Essencial */
+
+
+.principal-container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.principal-container img{
+    width: 30%;
+}
+
+.comecar{
+    background-color: blue;
+    padding: 1% 5%;
+    border: 2px solid white;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 30%;
+}
+.principal-container .contatos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    position: absolute;
+    margin-left: 20%;
+    bottom: 10%;
+}
+.btn-emergencia img {
+    padding: 4%;
+    background: rgba(255,255,255,0.8);
+    border: 2px solid red;
+    border-radius: 12px;
+}
+
+#selecionado{
+    background: #24578e;
+    padding: 10%;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+
+@media (min-width: 1px) and (max-width: 850px) {
+    .principal-container img{
+        width: 80%;
+    }
+    .principal-container ul li a img{
+        width: 40%;
+    }
+    .principal-container .contatos{
+        margin-left: 15%;
+    }
+    .lista li a{
+        font-size: 6vw;
+    }
+    .principal-container img{
+        margin-top: 25%;
+    }
+    .nav-container{
+        background: url(../Imagens/background-cel-primeiros-socorros.jpg) no-repeat center center/cover;
+        
+        /* Overlay */
+        background-color: rgba(0,0,0,0.3);
+        background-blend-mode: color;
+    }
+}
+
